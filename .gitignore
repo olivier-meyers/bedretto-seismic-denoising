@@ -1,0 +1,28 @@
+# Data and model artefacts (not distributed, see README)
+data/
+*.hdf5
+*.h5
+*.npz
+*.npy
+*.csv
+*.keras
+*.ckpt
+models/
+history/
+results/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.venv/
+.conda/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
