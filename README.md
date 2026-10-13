@@ -8,7 +8,7 @@ Fault-activation experiments at the Bedretto Underground Laboratory produce very
 
 ## Approach
 
-A U-Net predicts a time–frequency mask that separates event energy from noise, following MarsQuakeNet (Dahmen et al., 2022). It is trained on synthetic mixtures of high-SNR catalogue events and real noise recordings, with random SNR, time shift and polarity. The masked spectrogram is used to denoised a waveform, and the mask can also serve as an event detector.
+A U-Net predicts a time–frequency mask that separates event energy from noise, following MarsQuakeNet (Dahmen et al., 2022). It is trained on synthetic mixtures of high-SNR catalogue events and real noise recordings, with random SNR, time shift and polarity. The masked spectrogram is used to denoise a waveform, and the mask can also serve as an event detector.
 
 <p align="center"><img src="figures/denoising_example_snr0.57.png" width="820" alt="Example of a denoised event at SNR 0.57"></p>
 
